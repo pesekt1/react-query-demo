@@ -1,11 +1,14 @@
 import "./App.css";
-import PostListInfinite from "./components/PostListInfinite";
+import TodoForm from "./components/TodoForm";
+import TodoList from "./components/TodoList";
+import TodoListRQ from "./components/TodoListRQ";
 
 function App() {
   return (
     <div>
       <h1>React Query Demo</h1>
-      <PostListInfinite />
+      <TodoForm />
+      <TodoListRQ />
     </div>
   );
 }
